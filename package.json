@@ -1,0 +1,26 @@
+{
+  "name": "paseo-git-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Paseo Git Manager 只读基础框架",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.15.2",
+    "@getpaseo/client": "0.15.2",
+    "@getpaseo/protocol": "0.15.2",
+    "@tanstack/react-query": "^5.90.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "zod": "^4.4.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "id": "paseo-git-manager",
+  "name": "Git Manager",
+  "description": "查看工作区 Git 变更、暂存区差异与 worktree；基础框架版本。",
+  "requirements": { "paseo": "0.15.2" }
+}
